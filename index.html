@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+	<h2>ФОН</h2>
+	<div class="gradient">
+		<p>to top rigte</p>
+	</div>
+	<hr>
+	<div class="block">
+		<div class="block1">
+			<p>Дистанции огромного размера</p>
+		</div>
+	</div>
+	<hr>
+	<h2>ТАБЛИЦИ</h2>
+		<table class="tab1">
+			<caption><b>Таблица 1</b></caption>
+			<thead>
+				<th>Альбом</th>
+				<th>Год</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Transmission</td>
+					<td>1993</td>
+				</tr>		<tr>
+					<td>Lucisna</td>
+					<td>1994</td>
+				</tr>
+				<tr>
+					<td>Beyond the Infinite</td>
+					<td>1995</td>
+				</tr>
+				<tr>
+					<td>Shango</td>
+					<td>1997</td>
+				</tr>
+				<tr>
+					<td>Laburinth</td>
+					<td>2000</td>
+				</tr>
+				<tr>
+					<td>Gods & Monsters</td>
+					<td>2004</td>
+				</tr>
+				<tr>
+					<td>Laburinth</td>
+					<td>2008</td>
+				</tr>
+				<tr>
+					<td>Insede The Reactor</td>
+					<td>2011</td>
+				</tr>
+				<tr>
+					<td>The Golden San Of The Great East</td>
+					<td>2013</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="tab2">
+			<caption><b>Таблица 2</b></caption>
+			<thead>
+				<th>7:00</th>
+				<th>7:30</th>
+				<th>8:00</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="3">Телеканал "Доброе утро"</td>
+				</tr>
+				<tr>
+					<td>Вечти ru</td>
+					<td>Большой спорт</td>
+					<td>Рейтинг Баженова</td>
+				</tr>
+				<tr>
+					<td>Мультфильмы</td>
+					<td colspan="2">Полезное утро</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="tab3">
+			<caption><b>Таблица 3</b></caption>
+			<tr>
+				<td>яблоки</td>
+				<td rowspan="3">апельсины</td>
+				<td>персики</td>
+			</tr>
+			<tr>
+				<td>бананы</td>
+				<td rowspan="2">ананасы</td>
+			</tr>
+			<tr>
+				<td>авокадо</td>
+			</tr>
+		</table>
+		<table class="tab4">
+			<caption><b>Таблица 4</b></caption>
+			<thead>
+				<tr>
+					<th rowspan="2"></th>
+					<th colspan="2">Общий заголовок для двух подзаголовков</th>
+					<th rowspan="2">Заголовок 3</th>
+				</tr>
+				<tr>
+					<th>Заголовок 1</th>
+					<th>Заголовок 2</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Пункт А</th>
+					<td>данные А1</td>
+					<td>данные А2</td>
+					<td>данные А3</td>
+				</tr>
+				<tr>
+					<th>Пункт Б</th>
+					<td>данные Б1</td>
+					<td>данные Б2</td>
+					<td>данные Б3</td>
+				</tr>
+				<tr>
+					<th>Пункт В</th>
+					<td>данные В1</td>
+					<td>данные В2</td>
+					<td>данные В3</td>
+				</tr>
+			</tbody>		
+		</table>
+	<hr>
+		<h2>ФОРМЫ</h2>
+		<form action="#" name="MyForm">
+			<span class="form1">Форма заявки на работу в зоопарке</span>
+			<p><i>Пожалуста, заполните форму. Обязятельные поля помечены</i><span class="star">*</span></p>
+			<fieldset>
+				<legend>Контактная информация</legend>
+				<p>
+					<label for="333">Имя <span class="star">*</span></label> 
+					<input id="333" type="text" required="" autofocus="">
+				</p>
+				<p>
+					<label for="tel">Телефон</label>
+					<input id="tel" type="tel" maxlength="10">
+				</p>
+				<p>
+					<label for="mail">Еmail <span class="star">*</span></label>
+					<input id="mail" type="email">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Персональная информация</legend>
+				<p>
+					<label for="nam">Возраст</label>
+					<input id="nam" type="number" min="0" max="150" step="1">
+				</p>
+				<p>
+					<label>Пол</label>
+					<select>
+						<option>Женщина</option>
+						<option>Мужчина</option>
+					</select>
+				</p>
+				<p>
+					<label for="text">Перечислите личные качества</label>
+					<textarea name="text" id="text" cols="200" rows="5" maxlength=""></textarea>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Выберет ваших любимых животных</legend>
+				<p>
+					<input id="sab" type="checkbox" name="sub" checked="">Бокс
+					<input type="checkbox" name="sub">Боротьба
+					<input type="checkbox" name="sub">Футбол
+					<input type="checkbox" name="sub" checked="">Волейбол
+					<input id="sab" type="checkbox" name="sub" checked="">Бокс
+					<input id="sab" type="checkbox" name="sub" checked="">Бокс
+				</p>
+			</fieldset>
+</body>
+</html>

@@ -1,5 +1,14 @@
     .gradient {
       background: linear-gradient(45deg, purple 10%,crimson 30%, orangered 50%, gold 75%);
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      padding: 25px;
+    }
+    .block {
+      background-color: #333333;
+      height: 200px;
+      color: white;
     }
     .block1::before {
       content: '';
@@ -31,6 +40,9 @@
     .tab1, .tab2{
       margin-right: 40px;
       float: left;
+    }
+    .tab2 {
+      margin-bottom:12px;
     }
     .star {
       color: red;
