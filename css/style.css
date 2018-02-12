@@ -1,0 +1,61 @@
+    .gradient {
+      background: linear-gradient(45deg, purple 10%,crimson 30%, orangered 50%, gold 75%);
+    }
+    .block1::before {
+      content: '';
+      width: 50px;
+      height: 50px;
+      background: #88B7D5;
+      border: 4px solid #C2E1F5;
+      border-right: none;
+      border-bottom: none;
+      transform: rotate(45deg);
+      position: absolute;
+      top: -30px;
+      left: calc(50% - 29px);
+    }
+    .block1 {
+      margin:0 auto;
+      top: 70px; 
+      width: 90%;
+      background: #88B7D5;
+      border: 4px solid #C2E1F5;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+    }
+    th, td{
+      border: 1px solid #ccc;
+      padding: 5px 20px;
+    }
+    .tab1, .tab2{
+      margin-right: 40px;
+      float: left;
+    }
+    .star {
+      color: red;
+    }
+    form {
+      width: 500px;
+      margin: 20px auto;
+    }
+    label {
+      width: 100px;
+      display: inline-block;
+    }
+    .form1 {
+      font-family: 'Times New Roman';
+      font-weight: bold;
+      font-size: 20pt;
+    }
+    legend {
+      font-family: 'Times New Roman';
+      font-size: 14pt;
+      font-weight: bold;
+    }
+    textarea, input, select {
+      width: 200px;
+    }
+    fieldset {
+      margin-bottom:20px;
+    }
